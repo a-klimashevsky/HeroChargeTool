@@ -17,6 +17,7 @@
     <AttributeType id="14" name="Ignore Magic Resistance" />
     <AttributeType id="15" name="Improve Healing in %" />
     <AttributeType id="16" name="Life Steal" />
+    <AttributeType id="17" name="Magic Crit" />
   </Attributes>
   <Items>
     <Gear name="Wak-dol Blade" minlvl="1" color="White">
@@ -321,6 +322,81 @@
         <Attribute typeId="4" value="100" />
         <Attribute typeId="7" value="4" />
         <Attribute typeId="10" value="100" />
+      </attributes>
+    </Gear>
+    <Gear name="Pendant of the Qunnard" minlvl="21" color="Green">
+      <attributes>
+        <Attribute typeId="1" value="5" />
+        <Attribute typeId="2" value="5" />
+        <Attribute typeId="3" value="5" />
+        <Attribute typeId="13" value="5" />
+        <Attribute typeId="15" value="10" />
+      </attributes>
+    </Gear>
+    <Gear name="Double Dirks" minlvl="20" color="Blue">
+      <attributes>
+        <Attribute typeId="3" value="10" />
+      </attributes>
+    </Gear>
+    <Gear name="Spark of Tyr" minlvl="22" color="Blue">
+      <attributes>
+        <Attribute typeId="5" value="21" />
+      </attributes>
+    </Gear>
+    <Gear name="War Axe" minlvl="20" color="Blue">
+      <attributes>
+        <Attribute typeId="1" value="10" />
+      </attributes>
+    </Gear>
+    <Gear name="Mark of Corvus" minlvl="20" color="Blue">
+      <attributes>
+        <Attribute typeId="2" value="10" />
+      </attributes>
+    </Gear>
+    <Gear name="Spear" minlvl="23" color="Blue">
+      <attributes>
+        <Attribute typeId="5" value="24" />
+      </attributes>
+    </Gear>
+    <Gear name="Hammer" minlvl="24" color="Blue">
+      <attributes>
+        <Attribute typeId="5" value="24" />
+      </attributes>
+    </Gear>
+    <Gear name="Trnsmer of Amuns" minlvl="26" color="Blue">
+      <attributes>
+        <Attribute typeId="1" value="16" />
+        <Attribute typeId="5" value="10" />
+      </attributes>
+    </Gear>
+    <Gear name="Swiftboots" minlvl="17" color="Green">
+      <attributes>
+        <Attribute typeId="1" value="6" />
+        <Attribute typeId="2" value="6" />
+        <Attribute typeId="3" value="6" />
+        <Attribute typeId="6" value="40" />
+        <Attribute typeId="11" value="60" />
+      </attributes>
+    </Gear>
+    <Gear name="Boaz Startap" minlvl="24" color="Blue">
+      <attributes>
+        <Attribute typeId="1" value="7" />
+        <Attribute typeId="2" value="7" />
+        <Attribute typeId="3" value="7" />
+        <Attribute typeId="17" value="20" />
+      </attributes>
+    </Gear>
+    <Gear name="Culashi'ta-ok" minlvl="26" color="Blue">
+      <attributes>
+        <Attribute typeId="3" value="16" />
+        <Attribute typeId="9" value="6" />
+      </attributes>
+    </Gear>
+    <Gear name="Fireseed" minlvl="18" color="Green">
+      <attributes>
+        <Attribute typeId="5" value="10" />
+        <Attribute typeId="10" value="100" />
+        <Attribute typeId="11" value="75" />
       </attributes>
     </Gear>
   </Items>
