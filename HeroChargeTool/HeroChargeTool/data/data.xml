@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Attributes>
+    <AttributeType id="1" name="Strength" />
+    <AttributeType id="2" name="Intellect" />
+    <AttributeType id="3" name="Agility" />
+    <AttributeType id="4" name="Maximum HP" />
+    <AttributeType id="5" name="Attack Damage" />
+    <AttributeType id="6" name="Magic Power" />
+    <AttributeType id="7" name="Armor Class" />
+    <AttributeType id="8" name="Magic Resistance" />
+    <AttributeType id="9" name="Physical Crit" />
+    <AttributeType id="10" name="Hp Regen" />
+    <AttributeType id="11" name="Energy Regen" />
+    <AttributeType id="12" name="Dodge" />
+    <AttributeType id="13" name="Armor Penetration" />
+    <AttributeType id="14" name="Ignore Magic Resistance" />
+    <AttributeType id="15" name="Improve Healing in %" />
+    <AttributeType id="16" name="Life Steal" />
+  </Attributes>
+  <Items>
+    <Gear name="Wak-dol Blade" minlvl="1" color="White">
+      <attributes>
+        <Attribute typeId="5" value="6" />
+      </attributes>
+    </Gear>
+    <Gear name="Inho Berry" minlvl="2" color="White">
+      <attributes>
+        <Attribute typeId="1" value="1" />
+        <Attribute typeId="2" value="1" />
+        <Attribute typeId="3" value="1" />
+      </attributes>
+    </Gear>
+    <Gear name="Emerald Torc" minlvl="2" color="White">
+      <attributes>
+        <Attribute typeId="1" value="2" />
+        <Attribute typeId="2" value="2" />
+        <Attribute typeId="3" value="2" />
+      </attributes>
+    </Gear>
+    <Gear name="Solak Soubranch" minlvl="2" color="White">
+      <attributes>
+        <Attribute typeId="10" value="15" />
+        <Attribute typeId="11" value="15" />
+      </attributes>
+    </Gear>
+    <Gear name="Fist of Tyre" minlvl="2" color="White">
+      <attributes>
+        <Attribute typeId="1" value="3" />
+      </attributes>
+    </Gear>
+    <Gear name="Fleet Feet" minlvl="2" color="White">
+      <attributes>
+        <Attribute typeId="3" value="3" />
+      </attributes>
+    </Gear>
+    <Gear name="Buckler" minlvl="2" color="White">
+      <attributes>
+        <Attribute typeId="7" value="2" />
+      </attributes>
+    </Gear>
+    <Gear name="Mask of Orrelhim" minlvl="2" color="White">
+      <attributes>
+        <Attribute typeId="11" value="30" />
+      </attributes>
+    </Gear>
+    <Gear name="Psionist's Cape" minlvl="2" color="White">
+      <attributes>
+        <Attribute typeId="2" value="3" />
+      </attributes>
+    </Gear>
+    <Gear name="Ceramic Bracelet" minlvl="2" color="White">
+      <attributes>
+        <Attribute typeId="7" value="2" />
+      </attributes>
+    </Gear>
+    <Gear name="Recovery Ring" minlvl="2" color="White">
+      <attributes>
+        <Attribute typeId="10" value="80" />
+      </attributes>
+    </Gear>
+    <Gear name="Shoes" minlvl="8" color="White">
+      <attributes>
+        <Attribute typeId="1" value="5" />
+        <Attribute typeId="2" value="5" />
+        <Attribute typeId="3" value="5" />
+      </attributes>
+    </Gear>
+    <Gear name="Bearknuckles" minlvl="10" color="White">
+      <attributes>
+        <Attribute typeId="5" value="9" />
+      </attributes>
+    </Gear>
+    <Gear name="Pendant of Kenaris" minlvl="9" color="White">
+      <attributes>
+        <Attribute typeId="1" value="3" />
+        <Attribute typeId="2" value="6" />
+        <Attribute typeId="3" value="3" />
+        <Attribute typeId="5" value="3" />
+      </attributes>
+    </Gear>
+    <Gear name="Recovery towel" minlvl="10" color="White">
+      <attributes>
+        <Attribute typeId="1" value="2" />
+        <Attribute typeId="2" value="2" />
+        <Attribute typeId="3" value="2" />
+        <Attribute typeId="10" value="100" />
+      </attributes>
+    </Gear>
+    <Gear name="War Signet of Kreln" minlvl="10" color="Green">
+      <attributes>
+        <Attribute typeId="1" value="6" />
+      </attributes>
+    </Gear>
+    <Gear name="Torc of Sight" minlvl="9" color="White">
+      <attributes>
+        <Attribute typeId="1" value="3" />
+        <Attribute typeId="2" value="3" />
+        <Attribute typeId="3" value="6" />
+        <Attribute typeId="5" value="3" />
+      </attributes>
+    </Gear>
+    <Gear name="Bellath's Fang" minlvl="9" color="White">
+      <attributes>
+        <Attribute typeId="7" value="2" />
+        <Attribute typeId="11" value="30" />
+      </attributes>
+    </Gear>
+    <Gear name="Hole Stompers" minlvl="10" color="Green">
+      <attributes>
+        <Attribute typeId="3" value="6" />
+      </attributes>
+    </Gear>
+    <Gear name="Hood of Dark Sight" minlvl="10" color="Green">
+      <attributes>
+        <Attribute typeId="2" value="6" />
+      </attributes>
+    </Gear>
+    <Gear name="Wrist of Boaz" minlvl="9" color="White">
+      <attributes>
+        <Attribute typeId="1" value="6" />
+        <Attribute typeId="2" value="3" />
+        <Attribute typeId="3" value="3" />
+        <Attribute typeId="5" value="3" />
+      </attributes>
+    </Gear>
+    <Gear name="Coward's Shield" minlvl="10" color="White">
+      <attributes>
+        <Attribute typeId="3" value="6" />
+        <Attribute typeId="7" value="3" />
+      </attributes>
+    </Gear>
+    <Gear name="Gloves of Haste" minlvl="10" color="Green">
+      <attributes>
+        <Attribute typeId="9" value="7.5" />
+      </attributes>
+    </Gear>
+    <Gear name="Zarroic Hood" minlvl="27" color="Green">
+      <attributes>
+        <Attribute typeId="8" value="5" />
+      </attributes>
+    </Gear>
+    <Gear name="Void Gem" minlvl="11" color="Green">
+      <attributes>
+        <Attribute typeId="11" value="60" />
+      </attributes>
+    </Gear>
+    <Gear name="Bramblestick" minlvl="10" color="Green">
+      <attributes>
+        <Attribute typeId="5" value="10" />
+        <Attribute typeId="9" value="5" />
+      </attributes>
+    </Gear>
+    <Gear name="Pure Earth" minlvl="11" color="Green">
+      <attributes>
+        <Attribute typeId="6" value="30" />
+      </attributes>
+    </Gear>
+    <Gear name="Tusk Sigil" minlvl="11" color="Green">
+      <attributes>
+        <Attribute typeId="16" value="15" />
+      </attributes>
+    </Gear>
+    <Gear name="Helm of Magnus THorne" minlvl="10" color="Green">
+      <attributes>
+        <Attribute typeId="7" value="5" />
+        <Attribute typeId="10" value="90" />
+      </attributes>
+    </Gear>
+    <Gear name="Gol'can Tir" minlvl="12" color="Green">
+      <attributes>
+        <Attribute typeId="4" value="100" />
+      </attributes>
+    </Gear>
+    <Gear name="Gul'tak Tir" minlvl="13" color="Green">
+      <attributes>
+        <Attribute typeId="4" value="100" />
+        <Attribute typeId="6" value="18" />
+      </attributes>
+    </Gear>
+    <Gear name="Simple Band" minlvl="10" color="Green">
+      <attributes>
+        <Attribute typeId="6" value="12" />
+        <Attribute typeId="10" value="100" />
+        <Attribute typeId="11" value="30" />
+      </attributes>
+    </Gear>
+    <Gear name="Chest Scale" minlvl="20" color="Green">
+      <attributes>
+        <Attribute typeId="7" value="5" />
+      </attributes>
+    </Gear>
+    <Gear name="Magic Wand" minlvl="10" color="Green">
+      <attributes>
+        <Attribute typeId="1" value="3" />
+        <Attribute typeId="2" value="3" />
+        <Attribute typeId="3" value="3" />
+        <Attribute typeId="10" value="15" />
+        <Attribute typeId="11" value="15" />
+      </attributes>
+    </Gear>
+    <Gear name="Banded Buckler" minlvl="10" color="Green">
+      <attributes>
+        <Attribute typeId="1" value="2" />
+        <Attribute typeId="2" value="2" />
+        <Attribute typeId="3" value="2" />
+        <Attribute typeId="7" value="5" />
+      </attributes>
+    </Gear>
+    <Gear name="Signet Ring" minlvl="20" color="Green">
+      <attributes>
+        <Attribute typeId="10" value="100" />
+      </attributes>
+    </Gear>
+    <Gear name="Brazer of Zarrad" minlvl="16" color="Green">
+      <attributes>
+        <Attribute typeId="1" value="6" />
+        <Attribute typeId="10" value="70" />
+        <Attribute typeId="11" value="50" />
+      </attributes>
+    </Gear>
+    <Gear name="Corax's Sight" minlvl="15" color="Green">
+      <attributes>
+        <Attribute typeId="1" value="3" />
+        <Attribute typeId="2" value="3" />
+        <Attribute typeId="3" value="3" />
+        <Attribute typeId="7" value="3" />
+        <Attribute typeId="11" value="32" />
+      </attributes>
+    </Gear>
+    <Gear name="Training Boots" minlvl="18" color="Green">
+      <attributes>
+        <Attribute typeId="1" value="14" />
+        <Attribute typeId="2" value="6" />
+        <Attribute typeId="3" value="6" />
+        <Attribute typeId="9" value="15" />
+      </attributes>
+    </Gear>
+    <Gear name="Emerald Boots" minlvl="16" color="Green">
+      <attributes>
+        <Attribute typeId="1" value="7" />
+        <Attribute typeId="2" value="7" />
+        <Attribute typeId="3" value="7" />
+        <Attribute typeId="7" value="1" />
+        <Attribute typeId="10" value="90" />
+      </attributes>
+    </Gear>
+    <Gear name="Phase Boots" minlvl="19" color="Green">
+      <attributes>
+        <Attribute typeId="1" value="9" />
+        <Attribute typeId="2" value="9" />
+        <Attribute typeId="3" value="9" />
+        <Attribute typeId="5" value="24" />
+      </attributes>
+    </Gear>
+    <Gear name="Emerald Training Boots" minlvl="18" color="Green">
+      <attributes>
+        <Attribute typeId="1" value="6" />
+        <Attribute typeId="2" value="6" />
+        <Attribute typeId="3" value="14" />
+        <Attribute typeId="9" value="15" />
+      </attributes>
+    </Gear>
+    <Gear name="Bully Stick" minlvl="18" color="Green">
+      <attributes>
+        <Attribute typeId="2" value="6" />
+        <Attribute typeId="5" value="15" />
+        <Attribute typeId="9" value="5" />
+        <Attribute typeId="11" value="40" />
+      </attributes>
+    </Gear>
+    <Gear name="Sanadorian Warden Helm" minlvl="19" color="Green">
+      <attributes>
+        <Attribute typeId="5" value="20" />
+        <Attribute typeId="7" value="5" />
+        <Attribute typeId="16" value="15" />
+      </attributes>
+    </Gear>
+    <Gear name="Hazad'ar Acolyte Mask" minlvl="18" color="Green">
+      <attributes>
+        <Attribute typeId="8" value="12" />
+        <Attribute typeId="10" value="100" />
+      </attributes>
+    </Gear>
+    <Gear name="Bulwak War-Drum" minlvl="20" color="Green">
+      <attributes>
+        <Attribute typeId="1" value="9" />
+        <Attribute typeId="2" value="9" />
+        <Attribute typeId="3" value="9" />
+        <Attribute typeId="5" value="3" />
+      </attributes>
+    </Gear>
+    <Gear name="Mask of Madness" minlvl="19" color="Green">
+      <attributes>
+        <Attribute typeId="9" value="20" />
+        <Attribute typeId="16" value="20" />
+      </attributes>
+    </Gear>
+    <Gear name="Death Kite" minlvl="19" color="Green">
+      <attributes>
+        <Attribute typeId="4" value="100" />
+        <Attribute typeId="7" value="4" />
+        <Attribute typeId="10" value="100" />
+      </attributes>
+    </Gear>
+  </Items>
+</Data>
