@@ -18,6 +18,10 @@
     <AttributeType id="15" name="Improve Healing in %" />
     <AttributeType id="16" name="Life Steal" />
     <AttributeType id="17" name="Magic Crit" />
+    <AttributeType id="18" name="Reduce energy cost in %" />
+    <AttributeType id="19" name="Chance to resist silence in %" />
+    <AttributeType id="20" name="Accuracy" />
+    <AttributeType id="21" name="Skill Level" />
   </Attributes>
   <Items>
     <Gear name="Wak-dol Blade" minlvl="1" color="White">
@@ -397,6 +401,596 @@
         <Attribute typeId="5" value="10" />
         <Attribute typeId="10" value="100" />
         <Attribute typeId="11" value="75" />
+      </attributes>
+    </Gear>
+    <Gear name="Hood of Jachin" minlvl="25" color="Green">
+      <attributes>
+        <Attribute typeId="7" value="5" />
+        <Attribute typeId="9" value="15" />
+        <Attribute typeId="11" value="40" />
+        <Attribute typeId="16" value="16" />
+      </attributes>
+    </Gear>
+    <Gear name="Chest Plate" minlvl="22" color="Blue">
+      <attributes>
+        <Attribute typeId="7" value="10" />
+      </attributes>
+    </Gear>
+    <Gear name="Ascendant of Kron Medal" minlvl="18" color="Green">
+      <attributes>
+        <Attribute typeId="11" value="50" />
+        <Attribute typeId="13" value="6" />
+      </attributes>
+    </Gear>
+    <Gear name="Longsword" minlvl="21" color="Blue">
+      <attributes>
+        <Attribute typeId="5" value="18" />
+      </attributes>
+    </Gear>
+    <Gear name="Bal'gorn Tir" minlvl="15" color="Green">
+      <attributes>
+        <Attribute typeId="5" value="5" />
+      </attributes>
+    </Gear>
+    <Gear name="Blessed Training Boots" minlvl="18" color="Green">
+      <attributes>
+        <Attribute typeId="1" value="6" />
+        <Attribute typeId="2" value="14" />
+        <Attribute typeId="3" value="6" />
+        <Attribute typeId="9" value="15" />
+      </attributes>
+    </Gear>
+    <Gear name="Jammer Grips" minlvl="32" color="Blue">
+      <attributes>
+        <Attribute typeId="1" value="25" />
+        <Attribute typeId="5" value="9" />
+        <Attribute typeId="7" value="5" />
+        <Attribute typeId="9" value="10" />
+      </attributes>
+    </Gear>
+    <Gear name="Blade Mail" minlvl="36" color="Blue">
+      <attributes>
+        <Attribute typeId="2" value="10" />
+        <Attribute typeId="5" value="22" />
+        <Attribute typeId="7" value="5" />
+        <Attribute typeId="8" value="5" />
+      </attributes>
+    </Gear>
+    <Gear name="Hazad'ar Boots" minlvl="31" color="Blue">
+      <attributes>
+        <Attribute typeId="1" value="25" />
+        <Attribute typeId="2" value="25" />
+        <Attribute typeId="3" value="25" />
+      </attributes>
+    </Gear>
+    <Gear name="Nedan's Tear" minlvl="37" color="Blue">
+      <attributes>
+        <Attribute typeId="5" value="30" />
+        <Attribute typeId="9" value="30" />
+      </attributes>
+    </Gear>
+    <Gear name="Corvus Amok" minlvl="30" color="Blue">
+      <attributes>
+        <Attribute typeId="2" value="10" />
+        <Attribute typeId="10" value="100" />
+        <Attribute typeId="12" value="5" />
+      </attributes>
+    </Gear>
+    <Gear name="Jachin's Ruby" minlvl="33" color="Blue">
+      <attributes>
+        <Attribute typeId="2" value="15" />
+        <Attribute typeId="6" value="30" />
+        <Attribute typeId="17" value="5" />
+      </attributes>
+    </Gear>
+    <Gear name="Eul's Scepter of Divinity" minlvl="34" color="Blue">
+      <attributes>
+        <Attribute typeId="2" value="10" />
+        <Attribute typeId="11" value="90" />
+        <Attribute typeId="14" value="5" />
+      </attributes>
+    </Gear>
+    <Gear name="Blood Rock" minlvl="35" color="Blue">
+      <attributes>
+        <Attribute typeId="4" value="100" />
+        <Attribute typeId="6" value="40" />
+        <Attribute typeId="10" value="100" />
+        <Attribute typeId="11" value="32" />
+      </attributes>
+    </Gear>
+    <Gear name="Dirks of Cicero" minlvl="35" color="Blue">
+      <attributes>
+        <Attribute typeId="1" value="16" />
+        <Attribute typeId="3" value="16" />
+        <Attribute typeId="5" value="12" />
+        <Attribute typeId="9" value="12" />
+      </attributes>
+    </Gear>
+    <Gear name="Vastro Tooth" minlvl="34" color="Blue">
+      <attributes>
+        <Attribute typeId="5" value="30" />
+        <Attribute typeId="9" value="15" />
+      </attributes>
+    </Gear>
+    <Gear name="Lulithan's Toothpick" minlvl="35" color="Blue">
+      <attributes>
+        <Attribute typeId="2" value="4" />
+        <Attribute typeId="3" value="22" />
+        <Attribute typeId="5" value="20" />
+      </attributes>
+    </Gear>
+    <Gear name="Jachin's Stone Rod" minlvl="35" color="Blue">
+      <attributes>
+        <Attribute typeId="1" value="10" />
+        <Attribute typeId="2" value="10" />
+        <Attribute typeId="3" value="10" />
+        <Attribute typeId="4" value="100" />
+        <Attribute typeId="17" value="10" />
+      </attributes>
+    </Gear>
+    <Gear name="Pale Gazer" minlvl="42" color="Blue">
+      <attributes>
+        <Attribute typeId="1" value="10" />
+        <Attribute typeId="5" value="24" />
+        <Attribute typeId="8" value="10" />
+      </attributes>
+    </Gear>
+    <Gear name="Moon of Lulithan" minlvl="43" color="Blue">
+      <attributes>
+        <Attribute typeId="5" value="65" />
+        <Attribute typeId="10" value="100" />
+        <Attribute typeId="11" value="50" />
+      </attributes>
+    </Gear>
+    <Gear name="Rod of Atos" minlvl="42" color="Blue">
+      <attributes>
+        <Attribute typeId="2" value="25" />
+        <Attribute typeId="4" value="100" />
+        <Attribute typeId="14" value="5" />
+      </attributes>
+    </Gear>
+    <Gear name="Opposing Pendant" minlvl="25" color="Blue">
+      <attributes>
+        <Attribute typeId="9" value="15" />
+      </attributes>
+    </Gear>
+    <Gear name="Charges of Shadow Wardens" minlvl="43" color="Blue">
+      <attributes>
+        <Attribute typeId="1" value="8" />
+        <Attribute typeId="2" value="15" />
+        <Attribute typeId="4" value="100" />
+        <Attribute typeId="5" value="21" />
+        <Attribute typeId="6" value="21" />
+      </attributes>
+    </Gear>
+    <Gear name="Stone of Boaz" minlvl="44" color="Blue">
+      <attributes>
+        <Attribute typeId="1" value="3" />
+        <Attribute typeId="5" value="40" />
+        <Attribute typeId="9" value="10" />
+      </attributes>
+    </Gear>
+    <Gear name="Kreln Amuk" minlvl="41" color="Blue">
+      <attributes>
+        <Attribute typeId="2" value="12" />
+        <Attribute typeId="14" value="12" />
+      </attributes>
+    </Gear>
+    <Gear name="Pendant of the Quinnard LV2" minlvl="41" color="Blue">
+      <attributes>
+        <Attribute typeId="1" value="5" />
+        <Attribute typeId="2" value="5" />
+        <Attribute typeId="3" value="5" />
+        <Attribute typeId="13" value="5" />
+        <Attribute typeId="15" value="20" />
+      </attributes>
+    </Gear>
+    <Gear name="Kreln masher" minlvl="43" color="Blue">
+      <attributes>
+        <Attribute typeId="5" value="24" />
+        <Attribute typeId="9" value="15" />
+      </attributes>
+    </Gear>
+    <Gear name="Mote" minlvl="44" color="Blue">
+      <attributes>
+        <Attribute typeId="5" value="60" />
+        <Attribute typeId="13" value="7" />
+      </attributes>
+    </Gear>
+    <Gear name="Sol'sketh" minlvl="53" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="10" />
+        <Attribute typeId="2" value="35" />
+        <Attribute typeId="3" value="10" />
+        <Attribute typeId="11" value="100" />
+        <Attribute typeId="14" value="10" />
+      </attributes>
+    </Gear>
+    <Gear name="Pipe" minlvl="52" color="Purple">
+      <attributes>
+        <Attribute typeId="8" value="35" />
+        <Attribute typeId="10" value="100" />
+      </attributes>
+    </Gear>
+    <Gear name="Nedan Bone Chest" minlvl="51" color="Purple">
+      <attributes>
+        <Attribute typeId="7" value="15" />
+        <Attribute typeId="9" value="35" />
+        <Attribute typeId="13" value="5" />
+      </attributes>
+    </Gear>
+    <Gear name="Bloody Eye" minlvl="48" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="10" />
+        <Attribute typeId="2" value="10" />
+        <Attribute typeId="3" value="10" />
+      </attributes>
+    </Gear>
+    <Gear name="Ice Staff" minlvl="49" color="Purple">
+      <attributes>
+        <Attribute typeId="2" value="25" />
+      </attributes>
+    </Gear>
+    <Gear name="Geometry of Fire" minlvl="45" color="Blue">
+      <attributes>
+        <Attribute typeId="4" value="100" />
+        <Attribute typeId="6" value="48" />
+        <Attribute typeId="10" value="100" />
+        <Attribute typeId="11" value="30" />
+        <Attribute typeId="15" value="20" />
+      </attributes>
+    </Gear>
+    <Gear name="Demon Edge" minlvl="50" color="Purple">
+      <attributes>
+        <Attribute typeId="5" value="46" />
+      </attributes>
+    </Gear>
+    <Gear name="Emerald Fork" minlvl="51" color="Purple">
+      <attributes>
+        <Attribute typeId="2" value="25" />
+        <Attribute typeId="5" value="30" />
+        <Attribute typeId="9" value="15" />
+        <Attribute typeId="11" value="100" />
+      </attributes>
+    </Gear>
+    <Gear name="Stainless Axe" minlvl="53" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="10" />
+        <Attribute typeId="2" value="10" />
+        <Attribute typeId="3" value="26" />
+        <Attribute typeId="4" value="100" />
+        <Attribute typeId="9" value="16" />
+      </attributes>
+    </Gear>
+    <Gear name="Corgieran Glaive" minlvl="49" color="Purple">
+      <attributes>
+        <Attribute typeId="9" value="25" />
+      </attributes>
+    </Gear>
+    <Gear name="Charges of Shadow Wardens LV2" minlvl="63" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="12" />
+        <Attribute typeId="2" value="21" />
+        <Attribute typeId="4" value="100" />
+        <Attribute typeId="5" value="31" />
+        <Attribute typeId="6" value="31" />
+      </attributes>
+    </Gear>
+    <Gear name="Jachin's Ruby LV2" minlvl="51" color="Purple">
+      <attributes>
+        <Attribute typeId="2" value="17" />
+        <Attribute typeId="6" value="60" />
+        <Attribute typeId="17" value="10" />
+      </attributes>
+    </Gear>
+    <Gear name="Stone of Orrelhim" minlvl="47" color="Purple">
+      <attributes>
+        <Attribute typeId="12" value="20" />
+      </attributes>
+    </Gear>
+    <Gear name="Copper Cudgel" minlvl="64" color="Purple">
+      <attributes>
+        <Attribute typeId="5" value="88" />
+        <Attribute typeId="9" value="15" />
+        <Attribute typeId="13" value="10" />
+      </attributes>
+    </Gear>
+    <Gear name="Heaven's Halberd" minlvl="64" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="20" />
+        <Attribute typeId="5" value="20" />
+        <Attribute typeId="9" value="30" />
+        <Attribute typeId="12" value="25" />
+      </attributes>
+    </Gear>
+    <Gear name="Dragon Glass" minlvl="60" color="Purple">
+      <attributes>
+        <Attribute typeId="2" value="6" />
+        <Attribute typeId="5" value="40" />
+        <Attribute typeId="10" value="200" />
+        <Attribute typeId="11" value="100" />
+        <Attribute typeId="18" value="15" />
+      </attributes>
+    </Gear>
+    <Gear name="Shazad'amok" minlvl="65" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="25" />
+        <Attribute typeId="2" value="25" />
+        <Attribute typeId="3" value="25" />
+        <Attribute typeId="4" value="250" />
+        <Attribute typeId="5" value="30" />
+        <Attribute typeId="6" value="60" />
+      </attributes>
+    </Gear>
+    <Gear name="Ball Lightning" minlvl="59" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="15" />
+        <Attribute typeId="2" value="15" />
+        <Attribute typeId="3" value="15" />
+        <Attribute typeId="5" value="10" />
+        <Attribute typeId="8" value="15" />
+      </attributes>
+    </Gear>
+    <Gear name="Kelossian Crusher" minlvl="62" color="Purple">
+      <attributes>
+        <Attribute typeId="5" value="48" />
+        <Attribute typeId="9" value="40" />
+      </attributes>
+    </Gear>
+    <Gear name="Rough Hewn Axe" minlvl="65" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="25" />
+      </attributes>
+    </Gear>
+    <Gear name="Pendant of the Quinnard LV3" minlvl="62" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="5" />
+        <Attribute typeId="2" value="5" />
+        <Attribute typeId="3" value="5" />
+        <Attribute typeId="13" value="5" />
+        <Attribute typeId="15" value="30" />
+      </attributes>
+    </Gear>
+    <Gear name="Fanged Harp" minlvl="66" color="Purple">
+      <attributes>
+        <Attribute typeId="3" value="25" />
+      </attributes>
+    </Gear>
+    <Gear name="Moonglow" minlvl="72" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="40" />
+        <Attribute typeId="4" value="600" />
+        <Attribute typeId="10" value="600" />
+      </attributes>
+    </Gear>
+    <Gear name="Lulithan's Toothpick LV2" minlvl="61" color="Purple">
+      <attributes>
+        <Attribute typeId="2" value="12" />
+        <Attribute typeId="3" value="28" />
+        <Attribute typeId="5" value="40" />
+      </attributes>
+    </Gear>
+    <Gear name="Bag of Holding" minlvl="70" color="Purple">
+      <attributes>
+        <Attribute typeId="2" value="30" />
+        <Attribute typeId="7" value="40" />
+      </attributes>
+    </Gear>
+    <Gear name="Kreln Leaf" minlvl="73" color="Purple">
+      <attributes>
+        <Attribute typeId="3" value="30" />
+        <Attribute typeId="5" value="30" />
+        <Attribute typeId="9" value="30" />
+        <Attribute typeId="12" value="30" />
+      </attributes>
+    </Gear>
+    <Gear name="Charges of Shadow Wardens LV3" minlvl="74" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="16" />
+        <Attribute typeId="2" value="24" />
+        <Attribute typeId="4" value="400" />
+        <Attribute typeId="5" value="41" />
+        <Attribute typeId="6" value="41" />
+      </attributes>
+    </Gear>
+    <Gear name="The Negotiator" minlvl="80" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="10" />
+        <Attribute typeId="2" value="10" />
+        <Attribute typeId="3" value="40" />
+        <Attribute typeId="6" value="15" />
+        <Attribute typeId="17" value="30" />
+      </attributes>
+    </Gear>
+    <Gear name="Yew Bolt Thrower" minlvl="79" color="Purple">
+      <attributes>
+        <Attribute typeId="5" value="81" />
+        <Attribute typeId="9" value="50" />
+      </attributes>
+    </Gear>
+    <Gear name="Staff of Rawlis" minlvl="70" color="Purple">
+      <attributes>
+        <Attribute typeId="5" value="60" />
+      </attributes>
+    </Gear>
+    <Gear name="Gullak Aertahn" minlvl="80" color="Purple">
+      <attributes>
+        <Attribute typeId="5" value="100" />
+        <Attribute typeId="13" value="10" />
+      </attributes>
+    </Gear>
+    <Gear name="Kreln Horn" minlvl="80" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="25" />
+        <Attribute typeId="5" value="50" />
+        <Attribute typeId="7" value="15" />
+        <Attribute typeId="16" value="25" />
+      </attributes>
+    </Gear>
+    <Gear name="Raven's Beak" minlvl="78" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="10" />
+        <Attribute typeId="5" value="100" />
+        <Attribute typeId="9" value="30" />
+      </attributes>
+    </Gear>
+    <Gear name="pendant of the Quinnard LV4" minlvl="77" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="5" />
+        <Attribute typeId="2" value="5" />
+        <Attribute typeId="3" value="5" />
+        <Attribute typeId="13" value="5" />
+        <Attribute typeId="15" value="40" />
+      </attributes>
+    </Gear>
+    <Gear name="Titan's Axe" minlvl="82" color="Orange">
+      <attributes>
+        <Attribute typeId="1" value="36" />
+      </attributes>
+    </Gear>
+    <Gear name="Jachin's Ruby LV3" minlvl="78" color="Purple">
+      <attributes>
+        <Attribute typeId="2" value="19" />
+        <Attribute typeId="6" value="90" />
+        <Attribute typeId="17" value="30" />
+      </attributes>
+    </Gear>
+    <Gear name="Lulithan's Toothpick LV3" minlvl="79" color="Purple">
+      <attributes>
+        <Attribute typeId="2" value="20" />
+        <Attribute typeId="3" value="34" />
+        <Attribute typeId="5" value="60" />
+      </attributes>
+    </Gear>
+    <Gear name="Crystal Ball" minlvl="82" color="Orange">
+      <attributes>
+        <Attribute typeId="2" value="36" />
+      </attributes>
+    </Gear>
+    <Gear name="Wizard's Hat" minlvl="82" color="Purple">
+      <attributes>
+        <Attribute typeId="6" value="120" />
+      </attributes>
+    </Gear>
+    <Gear name="Crystal Tower" minlvl="84" color="Orange">
+      <attributes>
+        <Attribute typeId="6" value="55" />
+        <Attribute typeId="10" value="100" />
+        <Attribute typeId="15" value="50" />
+      </attributes>
+    </Gear>
+    <Gear name="All Around Shoes" minlvl="81" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="31" />
+        <Attribute typeId="2" value="31" />
+        <Attribute typeId="3" value="31" />
+      </attributes>
+    </Gear>
+    <Gear name="Queen's Dress" minlvl="84" color="Purple">
+      <attributes>
+        <Attribute typeId="2" value="35" />
+        <Attribute typeId="4" value="470" />
+        <Attribute typeId="10" value="250" />
+        <Attribute typeId="19" value="30" />
+      </attributes>
+    </Gear>
+    <Gear name="Dragon's Scale" minlvl="84" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="10" />
+        <Attribute typeId="4" value="480" />
+        <Attribute typeId="5" value="16" />
+        <Attribute typeId="8" value="35" />
+      </attributes>
+    </Gear>
+    <Gear name="Jachin's Ruby LV4" minlvl="80" color="Purple">
+      <attributes>
+        <Attribute typeId="2" value="21" />
+        <Attribute typeId="6" value="140" />
+        <Attribute typeId="17" value="50" />
+      </attributes>
+    </Gear>
+    <Gear name="Marksman's Ring" minlvl="81" color="Blue">
+      <attributes>
+        <Attribute typeId="20" value="8" />
+      </attributes>
+    </Gear>
+    <Gear name="Nightless Staff" minlvl="85" color="Orange">
+      <attributes>
+        <Attribute typeId="2" value="60" />
+        <Attribute typeId="7" value="15" />
+        <Attribute typeId="8" value="18" />
+        <Attribute typeId="10" value="200" />
+      </attributes>
+    </Gear>
+    <Gear name="Star Shield" minlvl="85" color="Orange">
+      <attributes>
+        <Attribute typeId="3" value="60" />
+        <Attribute typeId="4" value="260" />
+        <Attribute typeId="5" value="90" />
+        <Attribute typeId="20" value="12" />
+      </attributes>
+    </Gear>
+    <Gear name="Deceiver's Sword" minlvl="84" color="Orange">
+      <attributes>
+        <Attribute typeId="1" value="40" />
+        <Attribute typeId="5" value="80" />
+        <Attribute typeId="7" value="15" />
+        <Attribute typeId="16" value="30" />
+      </attributes>
+    </Gear>
+    <Gear name="Eagle Ring" minlvl="82" color="Orange">
+      <attributes>
+        <Attribute typeId="3" value="36" />
+      </attributes>
+    </Gear>
+    <Gear name="Crusade Shield" minlvl="85" color="Orange">
+      <attributes>
+        <Attribute typeId="1" value="60" />
+        <Attribute typeId="4" value="1000" />
+        <Attribute typeId="5" value="22" />
+        <Attribute typeId="10" value="400" />
+      </attributes>
+    </Gear>
+    <Gear name="Holy Seed" minlvl="81" color="Purple">
+      <attributes>
+        <Attribute typeId="15" value="12" />
+      </attributes>
+    </Gear>
+    <Gear name="Angel's Sword" minlvl="83" color="Purple">
+      <attributes>
+        <Attribute typeId="4" value="250" />
+        <Attribute typeId="5" value="85" />
+        <Attribute typeId="13" value="14" />
+      </attributes>
+    </Gear>
+    <Gear name="Destruction Amulet" minlvl="83" color="Purple">
+      <attributes>
+        <Attribute typeId="2" value="50" />
+        <Attribute typeId="6" value="100" />
+        <Attribute typeId="21" value="2" />
+      </attributes>
+    </Gear>
+    <Gear name="Wizard's Book" minlvl="81" color="Purple">
+      <attributes>
+        <Attribute typeId="2" value="10" />
+        <Attribute typeId="21" value="1" />
+      </attributes>
+    </Gear>
+    <Gear name="Void Crystal" minlvl="83" color="Purple">
+      <attributes>
+        <Attribute typeId="1" value="10" />
+        <Attribute typeId="2" value="10" />
+        <Attribute typeId="3" value="10" />
+        <Attribute typeId="9" value="60" />
+        <Attribute typeId="17" value="60" />
+      </attributes>
+    </Gear>
+    <Gear name="Shadow Book" minlvl="83" color="Purple">
+      <attributes>
+        <Attribute typeId="4" value="300" />
+        <Attribute typeId="8" value="26" />
+        <Attribute typeId="10" value="300" />
+        <Attribute typeId="11" value="100" />
       </attributes>
     </Gear>
   </Items>

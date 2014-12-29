@@ -3,6 +3,6 @@
     public 
         enum GearColor
     {
-        White,Green,Blue,Purple
+        White,Green,Blue,Purple,Orange
     }
 }

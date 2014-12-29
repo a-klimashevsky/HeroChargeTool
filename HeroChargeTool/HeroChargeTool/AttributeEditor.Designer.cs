@@ -36,7 +36,7 @@
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.Location = new System.Drawing.Point(3, 10);
+            this.nameLabel.Location = new System.Drawing.Point(3, 5);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(35, 13);
             this.nameLabel.TabIndex = 0;
@@ -45,7 +45,12 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(274, 10);
+            this.numericUpDown1.Location = new System.Drawing.Point(274, 3);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(163, 20);
             this.numericUpDown1.TabIndex = 1;
@@ -57,7 +62,7 @@
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.nameLabel);
             this.Name = "AttributeEditor";
-            this.Size = new System.Drawing.Size(440, 36);
+            this.Size = new System.Drawing.Size(440, 27);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
