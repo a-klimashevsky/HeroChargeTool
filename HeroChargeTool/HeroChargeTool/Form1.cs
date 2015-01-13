@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using Core.Model;
@@ -46,6 +47,45 @@ namespace HeroChargeTool
             XmlSerializer serializer = new XmlSerializer(typeof(Data));
             serializer.Serialize(writer,Data);
             writer.Close();
+        }
+
+        private void exportToWikiToolStripMenuItem_Click(object sender, System.EventArgs e)
+        {
+            using (var writer = new StreamWriter("wiki\\Gears.md"))
+            {
+                writer.WriteLine("Gear | Min Level | Color");
+                writer.WriteLine("--- | --- | ---");
+                foreach (var gear in Data.Items)
+                {
+                    writer.WriteLine("[[" + gear.Name + "]]" + " | " + gear.MinLevel + " | " + gear.GearColor);
+                    ExportToWikiGear(gear);
+                }
+                writer.Close();
+            }
+        }
+
+        private void ExportToWikiGear(Gear gear)
+        {
+            using (var writer = new StreamWriter("wiki\\"+gear.Name.Replace(' ','-')+ ".md"))
+            {
+                writer.WriteLine("Min Level | Color");
+                writer.WriteLine("--- | ---");
+                writer.WriteLine(gear.MinLevel + " | " + gear.GearColor);
+                writer.WriteLine();
+                writer.WriteLine("#### Attributes");
+                foreach(var attr in gear.Attributes)
+                {
+                    string name = (from x in Data.Attributes where x.Id == attr.TypeId select x.Name).First();
+                    writer.WriteLine("* **" + name + "** *" + attr.Value + "*");
+                }
+                writer.Close();
+            }
+        }
+
+        private void addNewHeroToolStripMenuItem_Click(object sender, System.EventArgs e)
+        {
+            AddNewHeroDialog dialog = new AddNewHeroDialog();
+            dialog.ShowDialog();
         }
     }
 }

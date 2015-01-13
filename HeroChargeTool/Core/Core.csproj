@@ -38,7 +38,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Model\AttributeType.cs" />
     <Compile Include="Model\Gear.cs" />
     <Compile Include="Model\Data.cs" />

@@ -1,6 +1,6 @@
 ﻿namespace Core.Model
 {
-    enum Line
+    public enum Line
     {
         Front,Central,Back
     }

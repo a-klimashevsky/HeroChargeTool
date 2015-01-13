@@ -34,9 +34,11 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exportToWikiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addNewGearToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addNewHeroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -95,15 +97,31 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.saveToolStripMenuItem});
+            this.saveToolStripMenuItem,
+            this.exportToWikiToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(35, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
+            // saveToolStripMenuItem
+            // 
+            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.saveToolStripMenuItem.Text = "Save";
+            this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
+            // 
+            // exportToWikiToolStripMenuItem
+            // 
+            this.exportToWikiToolStripMenuItem.Name = "exportToWikiToolStripMenuItem";
+            this.exportToWikiToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.exportToWikiToolStripMenuItem.Text = "Export to wiki";
+            this.exportToWikiToolStripMenuItem.Click += new System.EventHandler(this.exportToWikiToolStripMenuItem_Click);
+            // 
             // dataToolStripMenuItem
             // 
             this.dataToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addNewGearToolStripMenuItem});
+            this.addNewGearToolStripMenuItem,
+            this.addNewHeroToolStripMenuItem});
             this.dataToolStripMenuItem.Name = "dataToolStripMenuItem";
             this.dataToolStripMenuItem.Size = new System.Drawing.Size(42, 20);
             this.dataToolStripMenuItem.Text = "Data";
@@ -115,12 +133,12 @@
             this.addNewGearToolStripMenuItem.Text = "Add new Gear";
             this.addNewGearToolStripMenuItem.Click += new System.EventHandler(this.addNewGearToolStripMenuItem_Click);
             // 
-            // saveToolStripMenuItem
+            // addNewHeroToolStripMenuItem
             // 
-            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.saveToolStripMenuItem.Text = "Save";
-            this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
+            this.addNewHeroToolStripMenuItem.Name = "addNewHeroToolStripMenuItem";
+            this.addNewHeroToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.addNewHeroToolStripMenuItem.Text = "Add New Hero";
+            this.addNewHeroToolStripMenuItem.Click += new System.EventHandler(this.addNewHeroToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -152,6 +170,8 @@
         private System.Windows.Forms.ToolStripMenuItem addNewGearToolStripMenuItem;
         private System.Windows.Forms.ListBox gearsList;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exportToWikiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem addNewHeroToolStripMenuItem;
     }
 }
 
